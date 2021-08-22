@@ -137,9 +137,9 @@ const farm = {
     }
   }
 }
-console.log(propAccess(farm, "animal.type.name")) // "cow"
-console.log(propAccess(farm, "animal.affiliation.name")) // "animal.affiliation does not exist"
-console.log(propAccess(farm, "animal.bonus.3")) // "No at least 7"
+console.log(propAccess(farm, "animal.type.name"))
+console.log(propAccess(farm, "animal.affiliation.name"))
+console.log(propAccess(farm, "animal.bonus.3"))
 
 // ############################################################################################################
 // Exercice Automate

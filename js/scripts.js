@@ -95,7 +95,7 @@ console.log(JSON.stringify(merge(tang, clan)) === JSON.stringify(expectedResult2
 const leet = sentence => {
   let msg;
   sentence.length === 0
-    ? msg = "w"
+    ? msg = ""
     : typeof sentence === "string"
       ? msg = sentence.replace(/^a/gi, "4")
                       .replace(/e/gi, "3")
